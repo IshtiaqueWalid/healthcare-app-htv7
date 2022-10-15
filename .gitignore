@@ -129,6 +129,7 @@ dmypy.json
 .pyre/
 
 # CSS Builds
-src/css
+css
 
 .DS_Store
+.vscode
