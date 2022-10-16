@@ -5,37 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simplicare</title>
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
     <div class="navbar">
-        <div class="container">
-            <div class="logo">
-                <p>Simpli<span>care</span></p>
-            </div>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>For Patients</li>
-                    <li>For Doctors</li>
-                </ul>
-            </nav>
-
-            <div class="sign-in">
-                <p>Sign In</p>
-                <img src="../assets/account.svg">
-            </div>
+        <div class="logo">
+            <a href="#">Simpli<span>care</span></a>
         </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">For Patients</a></li>
+                <li><a href="#">For Doctors</a></li>
+            </ul>
+        </nav>
+        <a class="sign-in" href="#">
+            <p>Sign in</p>
+            <img src="../assets/account.svg">
+        </a>
     </div>
     <section class="hero">
-        <img src="../assets/blood-test-bg.png">
-        <h1>Your health results, right at your fingertips.</h1>
-        <p>Get an overview of your health in an easy-to-use, streamlined dashboard.</p>
-        <div class="sign-in-button">
-            <p>Sign In</p>
-        </div>
-        <div class="learn-more-indicator">
-            <p>Learn more</p>
-            <img src="../assets/down-arrow.svg">
+        <img class="bg" src="../assets/blood-test-bg.png">
+        <div class="desc">
+            <h1>Your health results, right at your fingertips.</h1>
+            <p>Get an overview of your health in an easy-to-use, streamlined dashboard.</p>
+            <a href="#">
+                <div class="sign-in-button">
+                    <p>Sign In</p>
+                </div>
+            </a>
         </div>
     </section>
 </body>
